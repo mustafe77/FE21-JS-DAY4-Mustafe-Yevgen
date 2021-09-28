@@ -1,0 +1,26 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(31, 29, 29);
+}
+
+.circle-container {
+
+    width: 50%;
+    text-align: center;
+    margin: 20% auto;
+    font-size: 2em;   
+
+    .circle {
+        max-width: 500px;
+        width: 100%;
+        min-height: 500px;
+        background-color: rgb(78, 78, 216);
+        border-radius: 50%;
+    }
+
+    .message {
+        width: 100%;
+        padding: 0;
+        margin: 2rem auto;
+    }
+}
